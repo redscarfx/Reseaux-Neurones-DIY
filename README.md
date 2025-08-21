@@ -19,12 +19,12 @@ L’objectif est double :
 
 ## Organisation
 - [`src/modules/`](src/modules/) : implémentation des modules (couches, activations, pertes).  
-- [`src/test/`](src/test/) : tests unitaires.  
-- [`src/models/`](src/models/) : modèles sauvegardés, résultats et visualisations.  
+- [`src/tests/`](src/tests/) : tests unitaires.  
+- [`src/models/`](src/models/) : modèles sauvegardés, résultats et visualisations (non uploadés car ils sont très volumineux).  
 - Notebooks principaux :
   - [`2_layers_NN.ipynb`](src/2_layers_NN.ipynb) : réseau simple (régression, classification binaire).  
   - [`multi_classe.ipynb`](src/multi_classe.ipynb) : classification multi-classes.  
-  - [`auto_encodeur.ipynb`](src/auto_encodeur.ipynb) : entraînement et reconstruction.  
+  - [`autoencodeur.ipynb`](src/autoencodeur.ipynb) : entraînement et reconstruction.  
   - [`visualisation.ipynb`](src/visualisation.ipynb) : clustering et t-SNE.  
   - [`pretraitement.ipynb`](src/pretraitement.ipynb) : classification après reconstruction.  
 
